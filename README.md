@@ -1,5 +1,5 @@
 # Greetings_Farewell_Detector
-The task was to identify the sentences in which there was a greeting or a farewell.
+The task was to identify the sentences in which there was a greeting or a farewell. Unfortunately I have no idea how to extract company name and name of manager.
 My first decision was to train the Word2Vec model on a dataset of different greetings/farewells, then add
 a single word from a sentence to this model and compare the vectors of this word and my dataset. 
 So if some vector from my model will have more than 70-80% of simmilarity with given word, that will mean
